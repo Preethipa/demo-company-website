@@ -27,7 +27,7 @@ body{
     height:5px;
     color:darkmagenta;
     margin:0px 10px 50px;
-    font-weight: 600;
+    font-weight: 100;
     padding-right: 80px;
     cursor: pointer;
 }
@@ -78,20 +78,208 @@ ul button{
     cursor: pointer;
     margin: 1rem 2rem;
 }
-/*.navi
-    width:1200px;
-    height: 50px;
-    margin: auto;
+
+.section{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+}
+.slider{
+    height: 500px;
+    width: 800px; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide{
+    width: 500%;
+    height: 500px;
+    display: flex;
 }
 
-.logo{
-    width: 200px;
-    float: left;
-    height: 50px;
+.slide input{
+    display: none;
 }
-.ico{
-    border-radius: 10%;
-    width: 200px;
-    padding-top: 20px;
-    padding-left: 120px;
+.sl{
+    width: 20%;
+    transition: 2s;
 }
+.sl img{
+    width:800px;
+    height:500px;
+}
+.manual{
+    position:absolute ;
+    width:800px;
+    margin-top: -40px;
+    justify-content: center;
+    display: flex;
+}
+.manuals{
+    border:2px solid darkmagenta;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+.manuals:not(:last-child){
+    margin-right: 40px;
+}
+.manuals:hover{
+    background-color:darkmagenta;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+.auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.auto div{
+    border: 2px solid darkmagenta;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.auto div:not(:last-child){
+    margin-right: 40px;
+    justify-content: center;
+}
+#radio1:checked ~ .auto .auto1{
+    background-color:darkmagenta;
+}
+#radio2:checked ~ .auto .auto2{
+    background-color: darkmagenta;
+}
+#radio3:checked ~ .auto .auto3{
+    background-color: darkmagenta;
+}
+
+/*.slide{
+    width:40%;
+    transition: 2s;
+}
+.slide img{
+    width:800px;
+    height:500px;
+    justify-content: center;
+    margin: auto;   
+}
+.manual{
+    position: absolute;
+    width:800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}*/
+/*.manuals{
+    border:2px solid white;
+    padding:5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+
+
+
+
+
+/*.banner{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    height:500px;
+    width: 1000px;;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide{
+    width:20%;
+    transition: 2s;
+}
+
+.slide img{
+    width:1000px;
+    height:500px;
+}
+
+.manual{
+    position: absolute;
+    width:800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manuals{
+    border:2px solid white;
+    padding:5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+    justify-content:center;
+    align-items: center;
+}
+.manuals:not(:last-child){
+    margin-right: 40px;
+}
+
+/*.auto{
+    position: absolute;
+    width: 1000px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+
+.auto div{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+
+
+#radio2:checked ~ .auto .auto2{
+    background-color: deeppink;
+}
+#radio3:checked ~ .auto .auto3{
+    background-color: deeppink;
+}
+
+
+
+
+
+
+
+
