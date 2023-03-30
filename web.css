@@ -173,6 +173,7 @@ ul button{
     margin:0;
     padding: 0;
     display: inline-block;
+    
 }
 
 .cont-img{
@@ -186,13 +187,34 @@ ul button{
 .cont-img h1{
     color:darkmagenta;
     font-weight: 400;
+    font-weight: bold;
 }
 .cont-img p{
     font-size: large;
-    padding: 0px 3px;
+    padding-right:10px;
+}
+#cont{
+    margin-top: 50px;
 }
 .layout{
-    padding-right: 10px;
-    width: 680px;
+    padding-left: 70px;
+    width: 660px;
     height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+#cont video{
+    width:590px;
+}
+.video1{
+  
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
