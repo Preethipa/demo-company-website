@@ -1,18 +1,97 @@
-.social-media-icons {
-    text-align: right;
-    margin-bottom: 10px;
-    color: aqua;
+*{
+    margin: 0;
+    padding: 0;
 }
-  
 
-.social-media-icons a {
-    display: inline-block;
-    margin-left: 10px;
-    color: blueviolet;
+body{
+    background-color: lemonchiffon;
 }
-.navbar {
-    margin-top: 10px;
+
+.header{
+    height: 10vh;
 }
-.fab{
-    color:blue;
+
+.container-fluid{
+    text-align: right;
+    font-weight: 800;
+    color: deeppink;
+    margin-top: 30px;
+    
+}
+
+.para{
+    text-align: left;
+    padding-left: 60px;
+}
+.fa{
+    height:5px;
+    color:darkmagenta;
+    margin:0px 10px 50px;
+    font-weight: 600;
+    padding-right: 80px;
+    cursor: pointer;
+}
+
+.navbar-header{
+    margin-bottom: 5px;
+}
+.icon-bar{
+    background: darkorange;
+}
+
+.navbar-style{
+    box-shadow: 0 5px 10px transparent;
+    text-transform: uppercase;
+}
+
+
+li a{
+    color:deeppink;
+   padding: 0rem 5rem;
+}
+
+li a:hover{
+    color:deeppink;
+}
+
+
+.logo{
+    border-radius: 50%;
+    width: 120px;
+   height: 100pv;
+   top:30px;
+    padding: 10px 20px;
+   cursor: pointer;
+
+}
+
+ul button{
+    background-color: deeppink;
+    border: none;
+    color: white;
+    padding:0.5rem 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 80px;
+    margin: 10px auto 0;
+    cursor: pointer;
+    margin: 1rem 2rem;
+}
+/*.navi
+    width:1200px;
+    height: 50px;
+    margin: auto;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+    height: 50px;
+}
+.ico{
+    border-radius: 10%;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 120px;
 }
