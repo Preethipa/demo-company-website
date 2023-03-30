@@ -120,13 +120,17 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="video1">
-                        <video src="new/video.mp4" controls ></video>
+                        <video id="myVideo" src="new/video.mp4" controls muted autoplay > </video>
                     </div>
-                   
                 </div>
             </div>
         </div>
     </section>
+
+    <script>
+        const video = document.getElementById("myVideo");
+        video.play();
+    </script>
 
     <script src="banner.js"></script>
 </body>
