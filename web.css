@@ -47,11 +47,16 @@ body{
 
 li a{
     color:deeppink;
-   padding: 0rem 5rem;
+    margin-right: 30px;
 }
 
-li a:hover{
+a:hover{
     color:deeppink;
+    font-size: larger;
+    font-weight: bold;
+}
+.active{
+    font-weight: bold;
 }
 
 
@@ -60,7 +65,7 @@ li a:hover{
     width: 120px;
    height: 100pv;
    top:30px;
-    padding: 10px 20px;
+    padding: 10px 10px;
    cursor: pointer;
 
 }
@@ -197,7 +202,7 @@ ul button{
     margin-top: 50px;
 }
 .layout{
-    padding-left: 70px;
+    
     width: 660px;
     height: auto;
     text-align: center;
@@ -206,10 +211,14 @@ ul button{
     display: flex;
     margin-bottom: 20px;
 }
-/*#cont video{
-    width:590px;
+#cont-video{
+    width:650px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
-.video1{
+/*.video1{
   
     text-align: center;
     justify-content: center;
