@@ -5,6 +5,7 @@
 
 body{
     background-color: lemonchiffon;
+    position: static;
 }
 
 .header{
@@ -218,12 +219,9 @@ ul button{
     align-items: center;
     display: flex;
 }
-/*.video1{
-  
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
+
+
+
+
+
+
