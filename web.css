@@ -220,6 +220,59 @@ ul button{
     display: flex;
 }
 
+.accor{
+    background-color: antiquewhite;
+    padding: 2px;
+}
+
+#accordion{
+    margin: 100px auto;
+    width: 1000px;
+}
+#accordion h1{
+    text-align: center;
+    color: darksalmon;
+    font-weight: bold;
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background:lavenderblush;
+    padding: 10px;
+    border-radius: 4px;
+}
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    color:#c2000c;
+   
+}
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 18px;
+    color: #c2000c;
+}
+#accordion label + input[type="radio"]{
+    display: none;
+}
+#accordion .ans{
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordion label + input[type="radio"]:checked + .ans{
+    max-height: 400px;
+}
+
 
 
 
